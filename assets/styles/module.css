@@ -66,6 +66,7 @@ Box Model
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+			outline: 1px solid gray;
 }
 
 
@@ -90,7 +91,6 @@ Box Model
 */
 
 header {
-	background-color: yellowgreen;
 	width: 100%;
 	height: 68px;
 	display: flex;
@@ -99,23 +99,26 @@ header {
 }
 
 .header_cont {
-	background-color: wheat;
-	width: 92.6%;
+	position: relative;
+	width: 97%;
 	height: 48px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .logo {
-	background-color: violet;
-	width: 8.9%;
+	width: 105px;
 	height: 100%;
+	flex-shrink: 0;
 }
 
 .header_nav {
-	background-color: turquoise;
-	width: 91%;
+	position: relative;
+	width: 1065px ;
 	height: 100%;
 	display: flex;
+	/* gap: 380px; */
 	justify-content: space-between;
 }
 
@@ -128,7 +131,6 @@ header {
 */
 
 article {
-	background-color: teal;
 	width: 100%;
 	height: 147px;
 	display: flex;
@@ -136,45 +138,39 @@ article {
 }
 
 .art {
-	background-color: chocolate;
-	width: auto;
+	width: 856px;
 	height: 147px;
 	display: flex;
+	flex-shrink: 0;
 }
 
 .art_left {
-	background-color: tan;
 	width: 350px;
 	height: 147px;
 }
 
 .art_left p {
-	color: #303235;
 	text-align: center;
 }
 
 .art_div {
-	background-color: steelblue;
 	width: 1px;
 	height: 85px;
 	margin: auto 100px;
 }
 
 .art_right {
-	background-color: springgreen;
 	width: 305px;
 	height: 147px;
 }
 
 .blog {
-	background-color: teal;
 	width: 200px;
 	height: 71px;
 	margin: 0 auto;
 }
 
 .blog_img {
-	background-color: thistle;
 	display: inline-block;
 	width: 70px;
 	height: 70px;
@@ -198,7 +194,6 @@ article {
 */
 
 footer {
-	background-color: slategrey;
 	width: 100%;
 	height: 428px;
 	display: flex;
@@ -207,20 +202,17 @@ footer {
 }
 
 .footer_cont {
-	background-color: slateblue;
 	width: 75.9%;
 	height: 302px;
 }
 
 .footer_main {
-	background-color: skyblue;
 	width: 100%;
 	height: 263px;
 	overflow: hidden;
 }
 
 .footer_btm {
-	background-color: yellowgreen;
 	width: 100%;
 	height: 24px;
 }
