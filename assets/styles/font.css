@@ -224,13 +224,13 @@ h6 p {
 =================================================================================
 */
 
-.act_main h6 {
+.act_main h6 p {
     margin: 40px 0;
     color: #00a0df;
     letter-spacing: 1px;
 }
 
-.act_main h5 {
+.act_main h5 p {
     color: #002c9b;
     letter-spacing: 1px;
 }

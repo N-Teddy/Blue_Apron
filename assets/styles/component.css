@@ -232,7 +232,7 @@ Box Model
 	width: 121.44px;
 	height: 40px;
 	padding: 12px 24px;
-	margin: 20px 50px 0 0;
+	margin: 0 50px 0 0;
 }
 
 .o_c {
@@ -280,7 +280,9 @@ Box Model
 	display: none;
 }
 
+
 .mobile_menu {
+	display: none;
 	position: absolute;
 	top: -9px;
 	right: 0;
@@ -288,6 +290,11 @@ Box Model
 	width: 328px;
 	height: auto;
 }
+
+.menu {
+	margin-right: 50px;
+}
+
 
 .mobile_menu ul li {
 	width: 100%;
@@ -306,5 +313,9 @@ Box Model
 	width: 100%;
 	padding: 15px 0;
 	text-align: center;
+}
+
+.header_cont div:has(input:checked) ~ .mobile_menu {
+	display: block;
 }
 

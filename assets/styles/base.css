@@ -134,14 +134,13 @@ Box Model
 }
 
 .hero_mid_left {
-	display: inline-block;
 	width: 373.53px;
 	height: 275px;
-	padding: 40px 32px;
+	padding: 60px 32px;
 	flex-shrink: 0;
 	display: flex;
-	flex-wrap: wrap;
-	align-content: space-around;
+	gap: 20px;
+	flex-direction: column;
 }
 
 .hero_mid_right {
@@ -261,12 +260,12 @@ Box Model
 
 .qlt_main_sub {
 	width: 29.8%;
-	height: 320px;
+	height: auto;
 }
 
 .qlt_img {
 	width: 100%;
-	height: 219.1px;
+	height: 210px;
 	margin-bottom: 12px;
 }
 
