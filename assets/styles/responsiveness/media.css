@@ -283,7 +283,7 @@
 =================================================================================
 */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.5px) {
 
     header {
         justify-content: end;
@@ -297,6 +297,7 @@
     .hero_main {
         justify-content: center;
         text-align: center;
+        height: 220px;
     }
 
     .hero_mid {
@@ -307,6 +308,7 @@
         width: 95%;
         flex-direction: column;
         height: auto;
+        margin: auto;
     }
 
     .hero_mid_right {

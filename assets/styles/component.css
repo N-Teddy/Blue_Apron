@@ -119,35 +119,31 @@ Box Model
 
 .footer_nav {
 	width: 100%;
-	height: 263px;
+	height: 280px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .footer_nav li {
 	display: inline-block;
-	height: 28px;
+	padding: 8px 0px;
 }
 
 .left_ul {
-	width: 49.3%;
-	height: 196px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-
+	column-count: 3;
+	column-gap: 0;
+	width: 51%;
 }
 
 .left_ul li {
-	width: 32.7%;
+	width: auto;
 	display: flex;
-	align-items: center;
 }
 
 
 .mid_ul {
 	display: inline-block;
-	width: 24.6%;
+	width: 23%;
 }
 
 .mid_ul li {
@@ -158,15 +154,16 @@ Box Model
 .right_ul {
 	display: inline-block;
 	width: 24.6%;
+	height: max-content;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .right_ul li {
 	width: 100%;
-	text-align: right;
 	display: flex;
-	align-items: center;
-	justify-content: right;
-
+	justify-content: flex-end;
 }
 
 
@@ -280,24 +277,35 @@ Box Model
 	display: none;
 }
 
-
-.mobile_menu {
+.hhh {
 	display: none;
 	position: absolute;
 	top: -9px;
 	right: 0;
+	background-color: rgba(128, 128, 128, 0.2);
+	width: 100%;
+	height: max-content;
+	
+}
+
+
+.mobile_menu {
 	background-color: white;
-	width: 328px;
+	position: relative;
+	margin-left: 62.1%;
+	width: 330px;
 	height: auto;
 }
 
-.menu {
-	margin-right: 50px;
+.menu input,
+.menu label {
+	position: absolute;
+	right: 30px;
 }
 
 
 .mobile_menu ul li {
-	width: 100%;
+	width: 96.4%;
 	border-bottom:  1px solid rgb(192, 193, 194);
 	padding: 20px 12px;
 	margin-left: 6px;
@@ -315,7 +323,7 @@ Box Model
 	text-align: center;
 }
 
-.header_cont div:has(input:checked) ~ .mobile_menu {
+.header_cont div:has(input:checked) ~ .hhh {
 	display: block;
 }
 

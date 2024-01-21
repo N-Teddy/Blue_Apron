@@ -192,7 +192,7 @@ h6 p {
 =================================================================================
 */
 
-.qlt_head h2 {
+.qlt_head h2 p {
 	color: rgb(0, 44, 155);
 	line-height: 50px;
 	margin-bottom: 15px;
@@ -260,3 +260,23 @@ h6 p {
     color: #6a6d75;
     margin-bottom: 20px;
 }
+
+/* 
+=================================================================================
+ start
+=================================================================================
+*/
+
+.footer_nav {
+	font-size: 14px;
+	font-weight: 400px;
+	color: #a1bce6;
+}
+
+.mid_ul li:first-of-type,
+.right_ul li:first-of-type {
+	line-height: 17px;
+	color: #fff;
+}
+
+
