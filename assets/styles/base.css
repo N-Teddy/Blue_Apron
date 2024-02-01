@@ -329,6 +329,40 @@ body{
 	background-color: white;
 	height: auto;
 	width: 49%;
+	animation: rotate 5s linear 0s infinite normal;
+	/* display: none */
+}
+
+#testimonial_1 {
+	animation-delay: 0s;
+}
+
+#testimonial_2 {
+	animation-delay: 5s;
+}
+
+#testimonial_3 {
+	animation-delay: 10s;
+}
+
+#testimonial_4 {
+	animation-delay: 15s;
+}
+
+#testimonial_5 {
+	animation-delay: 20s;
+}
+
+@keyframes rotate {
+
+	from{
+			display: none;
+	}
+
+	to {
+		display: block;
+	}
+
 }
 
 
