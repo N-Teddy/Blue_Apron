@@ -154,6 +154,14 @@ h6 p {
     font-size: 17px;
 }
 
+.rating {
+	display: inline-block;
+	font-size: 24px;
+	height: 100%;
+	color: #303235;
+	font-weight: 700;
+}
+
 /* 
 =================================================================================
  offres
@@ -261,6 +269,13 @@ h6 p {
     margin-bottom: 20px;
 }
 
+.blue {
+	font-size: 18px;
+	line-height: 34px;
+	color: #00a0df;
+	font-weight: 700;
+}
+
 /* 
 =================================================================================
  start
@@ -277,6 +292,12 @@ h6 p {
 .right_ul li:first-of-type {
 	line-height: 17px;
 	color: #fff;
+}
+
+.blue_2 {
+	font-size: 14px;
+	font-weight: 400px;
+	color: #a1bce6;
 }
 
 

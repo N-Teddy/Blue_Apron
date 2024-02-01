@@ -186,7 +186,9 @@ Box Model
 	font-size: 14px;
 	font-weight: 500;
 	border-radius: 0;
-	padding: 10px 30px;
+	padding: 13px 35px;
+	background-color: #f26c29;
+	color: white;
 }
 
 .r_o {
@@ -196,6 +198,7 @@ Box Model
 	width: auto;
 	height: max-content;
 	color: white;
+	background-color: #f26c29;
 	border-radius: 0;
 	padding: 9px 25px;
 	margin-left: 30px;
@@ -211,14 +214,21 @@ Box Model
 }
 
 .b_1 {
+	width: auto;
 	line-height: 50px;
 	margin-top: 30px;
+	background-color: #002c9b;
+	word-spacing: 2px;
+	letter-spacing: 2.5px;
 }
+
 
 .b_2 {
 	font-weight: 300;
 	margin-top: 19px;
 	line-height: 50px;
+	background-color: #002c9b;
+
 }
 
 .s_s {
@@ -228,8 +238,9 @@ Box Model
 	color: #002c9b;
 	width: 121.44px;
 	height: 40px;
-	padding: 12px 24px;
+	padding: 13px 29px;
 	margin: 0 50px 0 0;
+	background-color: white;
 }
 
 .o_c {
@@ -240,6 +251,8 @@ Box Model
 	font-weight: 700;
 	line-height: 50px;
 	font-size: 16px;
+	background-color: #002c9b;
+	color: white;
 }
 
 .b_o {
@@ -263,6 +276,7 @@ Box Model
 	font-weight: 500;
 	color: white;
 	padding: 12px 70px;
+	background-color: #002c9b;
 }
 
 /*
@@ -273,28 +287,24 @@ Box Model
 ==================================================================================
 */
 
+.header_cont input {
+	color: rgb(0, 128, 128);
+	display: none;
+}
+
 .burger_cont {
 	display: none;
 }
 
-.hhh {
-	display: none;
-	position: absolute;
-	top: -9px;
-	right: 0;
-	background-color: rgba(128, 128, 128, 0.2);
-	width: 100%;
-	height: max-content;
-	
-}
-
-
 .mobile_menu {
+	position: absolute;
+	top: -10px;
+	right: -360px;
 	background-color: white;
-	position: relative;
-	margin-left: 62.1%;
 	width: 330px;
 	height: auto;
+	border: 1px solid gold;
+	transition: all 1s linear;
 }
 
 .menu input,
@@ -323,7 +333,7 @@ Box Model
 	text-align: center;
 }
 
-.header_cont div:has(input:checked) ~ .hhh {
-	display: block;
+.burger_cont:has(input:checked) ~ .mobile_menu {
+	right: -10px;
 }
 

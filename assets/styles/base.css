@@ -90,6 +90,10 @@ Box Model
 =================================================================================
 */
 
+body{
+	overflow-x: hidden;
+}
+
 .ads {
 	width: 100%;
 	height: 60px;
@@ -97,7 +101,9 @@ Box Model
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: #0f346c;
 }
+
 
 .hero {
 	width: 100%;
@@ -109,7 +115,8 @@ Box Model
 	width: 100%;
 	height: 394px;
 	display: flex;
-	/* aspect-ratio: 1/3; */
+	background-image: url(../images/others/header.jpg);
+	background-size: cover;
 	align-items: center;
 }
 
@@ -141,12 +148,16 @@ Box Model
 	display: flex;
 	gap: 20px;
 	flex-direction: column;
+	background-color: #002684;
 }
 
 .hero_mid_right {
 	display: inline-block;
 	width: 66.9%;
 	height: 275px;
+	background-image: url(../images/others/hero.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .hero_btm {
@@ -159,8 +170,15 @@ Box Model
 
 .hero_btm_main {
 	width: 74.8%;
-	height: 190px;
+	height: auto;
 	text-align: center;
+}
+
+.rating_cont {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
 }
 
 
@@ -289,8 +307,11 @@ Box Model
 */
 
 .act {
+	background-image: url(../images/others/act.webp);
+	background-size: cover;
 	width: 100%;
-	height: 646px;
+	height: 536px;
+	margin-bottom: 64px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -305,6 +326,7 @@ Box Model
 }
 
 .act_main {
+	background-color: white;
 	height: auto;
 	width: 49%;
 }
@@ -328,6 +350,7 @@ Box Model
 }
 
 .start_cont {
+	background-image: url(../images/others/start.webp);
 	width: 95.6%;
 	height: 340px;
 	display: flex;
@@ -336,6 +359,7 @@ Box Model
 }
 
 .start_main {
+	background-color: white;
 	width: /*44%*/ 550px;
 	height: auto;
 	flex-shrink: 0;
