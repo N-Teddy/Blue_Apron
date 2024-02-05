@@ -158,6 +158,19 @@ article {
 	height: 100%;
 }
 
+.our_contacts {
+	outline: 1px solid gray;
+	display: inline-block;
+}
+
+.our_contacts li  {
+	outline: 1px solid gray;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 16px;
+}
+
 .art_left p {
 	text-align: center;
 }
