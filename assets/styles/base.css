@@ -92,6 +92,7 @@ Box Model
 
 body{
 	overflow-x: hidden;
+	background-color: white;
 }
 
 .ads {
