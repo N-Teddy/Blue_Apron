@@ -159,12 +159,10 @@ article {
 }
 
 .our_contacts {
-	outline: 1px solid gray;
 	display: inline-block;
 }
 
 .our_contacts li  {
-	outline: 1px solid gray;
 	display: inline-block;
 	width: 30px;
 	height: 30px;
@@ -198,6 +196,7 @@ article {
 	display: inline-block;
 	width: 70px;
 	height: 70px;
+	margin-right: 5px;
 }
 
 .art_right p:first-of-type {
